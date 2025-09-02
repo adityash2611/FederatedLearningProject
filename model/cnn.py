@@ -1,5 +1,6 @@
 import torch.nn as nn
 
+
 class AnimalCNN(nn.Module):
     def __init__(self):
         super(AnimalCNN, self).__init__()
